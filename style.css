@@ -1,0 +1,104 @@
+body {
+background: #2A2C2B;
+}
+
+#imaginary_container {
+  margin-top: 50px;
+}
+
+.stylish-input-group .input-group-addon {
+  background: transparent !important;
+  border: 0px;
+}
+
+.stylish-input-group .form-control {
+  background: transparent;
+  font-size: 25px;
+  color: #D9CB9E;
+}
+
+.stylish-input-group button {
+  border: 0;
+  background: transparent;
+  margin-top: -6px;
+}
+.glyphicon {
+  font-size: 50px;
+  color: #D9CB9E;
+}
+#randomBtn {
+	background: transparent;
+	color: #D9CB9E;
+	border: 1;
+}
+div a {
+  position: relative;
+  display: inline-block;
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 40;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+  font-size: 1em;
+}
+
+.links a {
+  padding: 10px;
+  color: #D9CB9E;
+  text-shadow: none;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.links a:before, .links a:after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #DC3522;
+  content: '';
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+.links a:before {
+  top: 0;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+.links a:after {
+  bottom: 0;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  transform: translateY(10px);
+}
+.links a:hover, .links a:focus {
+  color: #DC3522;
+}
+.links a:hover:before, .links a:hover:after, .links a:focus:before, .links a:focus:after {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px);
+}
+#linkBtn {
+	text-align: center;
+	text-decoration: none;
+	color: #D9CB9E;
+}
+#linkBtn:hover {
+	color: #DC3522;
+}
+
+.form-control:focus {
+  border-color: #DC3522;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}

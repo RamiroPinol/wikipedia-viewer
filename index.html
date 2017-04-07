@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RP's Wikipedia Viewer</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<script src="script.js"></script>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+      <div id="imaginary_container">
+        <div class="input-group stylish-input-group">
+          <input type="search" class="form-control input-lg" placeholder="Search the Wikipedia..." id="searchBar" name="search">
+          <span class="input-group-addon">
+                <button type="submit" id="search">
+                <span class="glyphicon glyphicon-search"></span>
+          </button>
+          </span>
+        </div>
+      </div>
+    </div>
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+  		<a id="linkBtn" class="center-block" href="https://en.wikipedia.org/wiki/Special:Random">...or read a random article instead.</a>
+      </div>
+  </div>
+
+  <div class="row">
+	<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+		<div class="links" id="div1"></div>
+	</div>
+  </div>
+</div>
+
+</body>
+</html>
